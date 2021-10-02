@@ -155,7 +155,7 @@
       <div class="header__lower layout-centered">
         <div class="header__logo">
           <a class="header__logo-link" href="/{{ query_string }}">
-            <img src="{{ url_for('static', filename='images/the-example-app-logo-python.svg') }}" alt="{{ 'logoAlt'|trans(current_locale.code) }}" />
+            <img src="{{ url_for('static', filename='images/header-python.png') }}" alt="{{ 'logoAlt'|trans(current_locale.code) }}" />
           </a>
         </div>
 
